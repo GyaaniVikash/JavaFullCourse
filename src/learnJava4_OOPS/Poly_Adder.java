@@ -1,6 +1,6 @@
 package learnJava4_OOPS;
 
-public class Poly_Adder 
+public class Poly_Adder //Polymorphism(method overloading)
     {
 	int a=10,b=20;
 	

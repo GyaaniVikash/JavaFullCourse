@@ -4,6 +4,8 @@ public class Ploy_AdderMain {
 
 	public static void main(String[] args) {
 		
+		//Polymorphism(method overloading)
+		
 		Poly_Adder sumobj=new Poly_Adder();
 		sumobj.add();  //1
 		
