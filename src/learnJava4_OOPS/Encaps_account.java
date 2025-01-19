@@ -2,9 +2,12 @@ package learnJava4_OOPS;
 
 public class Encaps_account {
 
-	private int accountno;
+	private int accountno;    //private keyword so it can access in other class
 	private String bankname;
 	private double amount;
+	
+	//for every variable -create 2 methods(setters and getters)
+	//set & Get method
 	
 	public int getAccountno() 
 	{
@@ -13,12 +16,14 @@ public class Encaps_account {
 	public void setAccountno(int accountno) {
 		this.accountno = accountno;
 	}
+	
 	public String getBankname() {
 		return bankname;
 	}
 	public void setBankname(String bankname) {
 		this.bankname = bankname;
 	}
+	
 	public double getAmount() {
 		return amount;
 	}
