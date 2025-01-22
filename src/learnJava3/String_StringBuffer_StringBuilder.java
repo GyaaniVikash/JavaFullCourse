@@ -18,19 +18,19 @@ public class String_StringBuffer_StringBuilder {
 		StringBuilder b=new StringBuilder("technical");
 	    System.out.println("Reverse using method:"+b.reverse());
 	    
-	    /*Mutable - we cant change (stringBuilder & stringBuffer) append method
+	    /*Mutable - we can change (stringBuilder & stringBuffer) append method
 	    Any method/operation is changing the original operation and store same value
 	    
-	    Imutable - we can change - String,no append(concat method)
+	    Immutable - we can't change - String,no append(concat method)
 	    Any method/operation is not changing the original operation and get same value
 	    */
 	    
-	    String s1="Imutable";
+	    String s1="Immutable";
 	    s1.concat("no change in original");
 	    System.out.println(s1);  //cannot change ,o/p - welcome
 	
 	    //StringBuffer ,StringBuilder - only difference in memory
-	    StringBuffer s2=new StringBuffer("Imutable");
+	    StringBuffer s2=new StringBuffer("Mutable");
 	    s2.append(" can be changed");  //append method to concat 2 string value
 	    System.out.println(s2);
 	
