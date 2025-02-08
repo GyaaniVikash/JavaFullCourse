@@ -1,5 +1,17 @@
 package learnJava4_OOPS_2;
 
+/*Method overriding
+ * Possible only in multiple classes(Inheritance)
+ * we should not change the signature of the method but body we should change
+ * method names are same
+ * belongs to inheritance
+ * ___________________
+ * Method overloading
+ * possible in single & multiple classes(inheritance)
+ * we should change the signature of the method
+ * method names are same
+ * belongs to polymorphism
+ */
 
 //method overloading with inheritance(overriding)
 
