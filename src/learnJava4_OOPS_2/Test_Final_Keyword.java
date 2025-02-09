@@ -52,7 +52,7 @@ public class Test_Final_Keyword {
 		t.x=200;  //we can change the value of variable
 	//	t.y=600; //incorrect because y is final variable and we cannot change value
 		System.out.println(t.x);
-		System.out.println(t.y);
+		System.out.println(t.y);  //value of y unchanged
 
 /*variables - we cannot change the value of variables(constant)
  * methods	- we cannot overrides those methods in child classes	
